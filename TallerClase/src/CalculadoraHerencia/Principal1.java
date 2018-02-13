@@ -1,9 +1,9 @@
 
-package Principal;
+package Principal1;
 
 import java.util.Scanner;
 
-public class Principal {
+public class Principal1 {
 
     public static void main(String[] args) {
         
@@ -26,10 +26,12 @@ public class Principal {
         switch (op){
             
             case 1:
+                System.out.println("Por favor digite el primer numero ");
                
                 entrada = miEscaner.nextInt();
                 MiCalculadora.setX(entrada);
                 
+                System.out.println("Por favor digite el segundo numero ");
                 entrada = miEscaner.nextInt();
                 MiCalculadora.setY(entrada);
                 sumar();
@@ -38,9 +40,11 @@ public class Principal {
                 
             case 2:
                 
+                System.out.println("Por favor digite el primer numero ");
                 entrada = miEscaner.nextInt();
                 MiCalculadora.setX(entrada);
                 
+                System.out.println("Por favor digite el segundo numero ");
                 entrada = miEscaner.nextInt();
                 MiCalculadora.setY(entrada);  
                 restar();
@@ -48,6 +52,7 @@ public class Principal {
                 break;
                 
             case 3:
+                System.out.println("Por favor digite el numero ");
 
                 entrada = miEscaner.nextInt();
                 MiCalculadora.setX(entrada);
