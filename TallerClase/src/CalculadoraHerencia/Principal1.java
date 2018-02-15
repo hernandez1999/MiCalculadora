@@ -71,6 +71,18 @@ public class Principal1 {
                 
                 break;
                 
+            case 4:
+                
+                entrada= miEscaner.nextInt();
+                System.out.println("Por favor digite el primer numero ");
+                entrada = miEscaner.nextInt();
+                calculadora1.setx(entrada);
+                
+                System.out.println("Por favor digite el segundo numero ");
+                entrada = miEscaner.nextInt();
+                calculadora1.sety(entrada);  
+                calculadora1.multi();
+                
             default:
                 System.out.println("La opcion no es valida"); 
         }
