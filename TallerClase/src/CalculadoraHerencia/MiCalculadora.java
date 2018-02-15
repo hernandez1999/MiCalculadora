@@ -12,12 +12,18 @@ public class MiCalculadora {
     int sumar() {
 
         r = x + y;
+        
+        System.out.println("El resultado es igual a:" +r);
+        
         return r;
     }
 
     int restar() {
        
         r = x - y;
+        
+        System.out.println("El resultado es igual a:" +r);
+        
         return r;
     }
     
@@ -30,6 +36,7 @@ public class MiCalculadora {
    }
 
     public int getR() {
+        
         return r;
     }
 }
