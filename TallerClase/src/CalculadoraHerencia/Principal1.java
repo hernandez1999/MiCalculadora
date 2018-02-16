@@ -19,7 +19,8 @@ public class Principal1 {
         System.out.println("Bienvenido, por favor escoja la opcion: ");
         System.out.println("1. Sumar");  
         System.out.println("2. Restar");    
-        System.out.println("3. Coseno");    
+        System.out.println("3. Coseno");
+        System.out.println("4. Multiplicar"); 
         
         try
          {
@@ -73,7 +74,6 @@ public class Principal1 {
                 
             case 4:
                 
-                entrada= miEscaner.nextInt();
                 System.out.println("Por favor digite el primer numero ");
                 entrada = miEscaner.nextInt();
                 calculadora1.setx(entrada);
@@ -81,8 +81,10 @@ public class Principal1 {
                 System.out.println("Por favor digite el segundo numero ");
                 entrada = miEscaner.nextInt();
                 calculadora1.sety(entrada);  
-                calculadora1.multi();
                 
+                calculadora1.multi();
+                break;
+
             default:
                 System.out.println("La opcion no es valida"); 
         }

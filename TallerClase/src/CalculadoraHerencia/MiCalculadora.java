@@ -27,6 +27,23 @@ public class MiCalculadora {
         return r;
     }
     
+    int multi(){
+        
+        r=x*y;
+        
+        System.out.println("El resultado es igual a:" +r);
+        
+        return r;
+    }    
+    
+    
+    float divi(){
+        r=x/y;
+        
+        System.out.println("El resultado es igual a:" +r);
+        
+        return r;
+    }
    public void setx(int x){
        this.x = x;
    }
